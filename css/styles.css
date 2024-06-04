@@ -358,6 +358,7 @@ body.dark {
 }
 
 .buttons {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     width: 225px;
@@ -375,7 +376,14 @@ body.dark {
     line-height: 2.5;
     text-align: center;
     border-radius: var(--border-radius);
-    transition: var(--transition);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button.active{
+    box-shadow: 0 0 0 150vh var(--primary-color);
+    color: var(--primary-color);
+    z-index: 1000;
 }
 
 .button--primary {
@@ -387,6 +395,44 @@ body.dark {
     background-color: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
+}
+
+
+
+.clip {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+.clip.active{
+    transition-delay: 0.5s;
+    transform: translate(-50%, -50%) scale(1);
+}
+.clip video{
+    max-width: 900px;
+}
+
+.clip .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+    .clip video{
+        max-width: 90%;
+    }
 }
 
 .icon {
