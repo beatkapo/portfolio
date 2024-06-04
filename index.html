@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://kit.fontawesome.com/6a695c2251.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css" />
   <title>Portfolio</title>
 </head>
@@ -45,7 +46,7 @@
         </div>
         <div class="card__header">
           <h2 class="card__title no-margin">Fran Gabarda Ortiz</h2>
-          <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Junior developer</p>
+          <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Desarrollador Junior</p>
         </div>
         <div class="card__body">
           <div class="card__link">
@@ -55,11 +56,17 @@
             </a>
           </div>
           <div class="card__link">
-            <i class="fas fa-phone-alt icon"></i>
-            <a href="tel:+34667587059">
-              +34 667587059
+            <i class="fa-brands fa-github icon"></i>
+            <a href="https://github.com/beatkapo" target="_blank">
+              github.com/beatkapo
             </a>
           </div>
+          <!-- <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+34666999666">
+              +34 666999666
+            </a>
+          </div> -->
           <p class="card__text" data-section="profile" data-value="description">
             Más de 6 años de experiencia en el sector. Durante los últimos 4
             años, he ido adquiriendo una sólida base y perfeccionando mis habilidades en diversas
@@ -111,7 +118,7 @@
     <section class="column column--right">
       <article class="card">
         <h2 class="card__title">Front End</h2>
-        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
+        <p class="card__item--measure" data-section="cards" data-value="experience-years">Años de experiencia</p>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -133,7 +140,7 @@
       </article>
       <article class="card">
         <h2 class="card__title">Back End</h2>
-        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
+        <p class="card__item--measure" data-section="cards" data-value="experience-years">Años de experiencia</p>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -155,7 +162,7 @@
       </article>
       <article class="card">
         <h2 class="card__title" data-section="cards" data-value="design-multimedia">Diseño y multimedia</h2>
-        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
+        <p class="card__item--measure" data-section="cards" data-value="experience-years">Años de experiencia</p>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -200,7 +207,25 @@
             comunicación con la base de datos.</p>
           <div class="buttons">
             <a href="#" class="button button--primary" data-section="buttons" data-value="demo">Demo</a>
-            <a href="#" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
+            <a href="#" class="button button--ghost" data-section="buttons" data-value="code">Código</a>
+          </div>
+        </div>
+        
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/programame.png" alt="App de pedidos a domicilio" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags project__tags--small">
+            <span class="project__tag"> #Java </span>
+            <span class="project__tag"> #ProgramaMe </span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="second-project-title">Participación en el concurso nacional de programación ProgramaMe</h2>
+          <p class="card__text" data-section="projects" data-value="second-project-description-1">Me clasifiqué junto a mi equipo para el concurso nacional de programación 'ProgramaMe', que se celebró en la Universidad Complutense de Madrid.</p>
+          <p class="card__text" data-section="projects" data-value="second-project-description-2">Después de superar el concurso regional, mi equipo clasificó para asistir al concurso nacional. Una experiencia gratificante y motivadora con la que aprendimos mucho sobre programación competitiva y resolución de problemas. Tuvimos que tener en cuenta tanto el tiempo de ejecución como los recursos que utilizaba cada programa.</p>
+          <div class="buttons">
+            <a href="https://portal.edu.gva.es/ieseduardoprimo/secretaria/cronica-del-concurs-de-programacio-programame/" target="_blank" class="button button--primary" data-section="buttons" data-value="chronicle">Crónica</a>
           </div>
         </div>
       </article>

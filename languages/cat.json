@@ -14,7 +14,10 @@
     "projects": {
         "first-project-title": "Aplicació client-servidor per a realitzar comandes",
         "first-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
-        "first-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades."
+        "first-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",
+        "second-project-title": "Participació en el concurs nacional de programació ProgramaMe",
+        "second-project-description-1": "Em vaig classificar al costat del meu equip per al concurs nacional de programació 'ProgramaMe', que es va celebrar en la Universitat Complutense de Madrid.",
+        "second-project-description-2": "Després de superar el regional, el meu equip va classificar per a assistir al concurs nacional. Una experiència gratificant i motivadora amb la qual vam aprendre molt sobre programació competitiva i resolució de problemes. Vam haver de tindre en compte tant el temps d'execució com els recursos que utilitzava cada programa."
     },
     "hobbies": {
         "title": "Aficions",
@@ -31,7 +34,7 @@
         "demo": "Demo",
         "code": "Codi"
     },
-    "mode":{
+    "mode": {
         "light": "Mode clar",
         "dark": "Mode fosc"
     }

@@ -14,7 +14,10 @@
     "projects": {
         "first-project-title": "Client-server application for ordering",
         "first-project-description-1": "I designed and developed an Android application to finish the higher cycle of multiplatform application development. I used Java in Android Studio, I used the Android framework to create the screens, trying to ensure an intuitive and functional interface for users.",
-        "first-project-description-2": "I implemented the backend server with Express.js, creating endpoints to receive requests and manage the server logic and communication with the database."
+        "first-project-description-2": "I implemented the backend server with Express.js, creating endpoints to receive requests and manage the server logic and communication with the database.",
+        "second-project-title": "Participation in the national programming contest ProgramaMe",
+        "second-project-description-1": "I qualified with my team for the national programming contest 'ProgramaMe', which was held at the Complutense University of Madrid.",
+        "second-project-description-2": "After passing the regional, my team qualified to attend the national competition. A rewarding and motivating experience in which we learned a lot about competitive programming and problem solving. We had to take into account so much the execution time as well as the resources used by each program."
     },
     "hobbies": {
         "title": "Hobbies",
@@ -31,7 +34,7 @@
         "demo": "Demo",
         "code": "Code"
     },
-    "mode":{
+    "mode": {
         "light": "Light mode",
         "dark": "Dark mode"
     }

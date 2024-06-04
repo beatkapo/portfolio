@@ -14,7 +14,12 @@
     "projects": {
         "first-project-title": "Aplicación cliente-servidor para realizar pedidos",
         "first-project-description-1": "Diseñé y desarrollé una aplicación Android para finalizar el ciclo superior de desarrollo de aplicaciones multiplataforma. Usé Java en Android Studio, utilicé el framework de Android para crear las pantallas, intentando asegurar una interfaz intuitiva y funcional para los usuarios.",
-        "first-project-description-2": "Implementé el servidor backend con Express.js, creando endpoints para recibir peticiones y gestionar la lógica del servidor y la comunicación con la base de datos."
+        "first-project-description-2": "Implementé el servidor backend con Express.js, creando endpoints para recibir peticiones y gestionar la lógica del servidor y la comunicación con la base de datos.",
+        
+        "second-project-title": "Participación en el concurso nacional de programación ProgramaMe",
+        "second-project-description-1": "Me clasifiqué junto a mi equipo para el concurso nacional de programación 'ProgramaMe', que se celebró en la Universidad Complutense de Madrid.",
+        "second-project-description-2": "Después de superar el regional, mi equipo clasificó para asistir al concurso nacional. Una experiencia gratificante y motivadora con la que aprendimos mucho sobre programación competitiva y resolución de problemas. Tuvimos que tener en cuenta tanto el tiempo de ejecución como los recursos que utilizaba cada programa."
+
     },
     "hobbies": {
         "first-hobby-title": "Música",
