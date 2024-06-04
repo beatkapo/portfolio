@@ -29,14 +29,22 @@
         "experience-title": "Experiencia",
         "experience-years": "Años de experiencia",
         "hobbies-title": "Aficiones",
-        "design-multimedia": "Diseño y Multimedia"
+        "design-multimedia": "Diseño y Multimedia",
+        "languages": "Idiomas"
     },
     "buttons": {
         "demo": "Demo",
-        "code": "Código"
+        "code": "Código",
+        "chronicle": "Crónica"
+        
     },
     "mode":{
         "light": "Modo claro",
         "dark": "Modo oscuro"
+    },
+    "languages":{
+        "spanish": "Español",
+        "english": "Inglés",
+        "valencian": "Valenciano"
     }
 }

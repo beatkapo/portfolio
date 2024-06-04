@@ -28,14 +28,21 @@
         "experience-title": "Experience",
         "experience-years": "Years of experience",
         "hobbies-title": "Hobbies",
-        "design-multimedia": "Design and Multimedia"
+        "design-multimedia": "Design and Multimedia",
+        "languages": "Languages"
     },
     "buttons": {
         "demo": "Demo",
-        "code": "Code"
+        "code": "Code",
+        "chronicle": "Chronicle"
     },
     "mode": {
         "light": "Light mode",
         "dark": "Dark mode"
+    },
+    "languages":{
+        "spanish": "Spanish",
+        "english": "English",
+        "valencian": "Valencian"
     }
 }

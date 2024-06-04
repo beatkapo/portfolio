@@ -28,14 +28,21 @@
         "experience-title": "Experiència",
         "experience-years": "Anys d'experiència",
         "hobbies-title": "Aficions",
-        "design-multimedia": "Disseny i Multimèdia"
+        "design-multimedia": "Disseny i Multimèdia",
+        "languages": "Idiomes"
     },
     "buttons": {
         "demo": "Demo",
-        "code": "Codi"
+        "code": "Codi",
+        "chronicle": "Crònica"
     },
     "mode": {
         "light": "Mode clar",
         "dark": "Mode fosc"
+    },
+    "languages":{
+        "spanish": "Espanyol",
+        "english": "Anglés",
+        "valencian": "Valencià"
     }
 }
