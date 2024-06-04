@@ -15,7 +15,18 @@
     <div class="switches">
       <div id="toggle-theme" class="toggle-theme">
         <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
-        <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+        <p id="toggle-text" class="toggle-theme__text">Modo oscuro</p>
+      </div>
+    </div>
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img class="flags__img" src="assets/icons/es.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="cat">
+        <img class="flags__img" src="assets/icons/ct.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img class="flags__img" src="assets/icons/gb.svg" alt="">
       </div>
     </div>
     <div id="toggle-colors" class="colors">
@@ -34,7 +45,7 @@
         </div>
         <div class="card__header">
           <h2 class="card__title no-margin">Fran Gabarda Ortiz</h2>
-          <p class="card__subtitle no-margin">Junior developer</p>
+          <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Junior developer</p>
         </div>
         <div class="card__body">
           <div class="card__link">
@@ -49,7 +60,7 @@
               +34 667587059
             </a>
           </div>
-          <p class="card__text">
+          <p class="card__text" data-section="profile" data-value="description">
             Más de 6 años de experiencia en el sector. Durante los últimos 4
             años, he ido adquiriendo una sólida base y perfeccionando mis habilidades en diversas
             tecnologías, en especial Java, HTML, CSS y Javascript.
@@ -59,15 +70,15 @@
           </p>
       </article>
       <atricle class="card card--experience">
-        <h2 class="card__title">Experiencia</h2>
+        <h2 class="card__title" data-section="cards" data-value="experience-title">Experiencia</h2>
         <div class="experience">
-          <img src="assets/images/logo-bromera-dark.png" alt="logo" class="experience__image">
+          <img id="bromera-image" src="assets/images/logo-bromera-dark.png" alt="logo" class="experience__image">
           <div class="experience__info">
-            <p class="experience__time">
+            <p class="experience__time" data-section="experience" data-value="first-job-date">
               Marzo 2024
             </p>
-            <h3 class="experience__job">Desarrollador de Software y Soporte Técnico</h3>
-            <p class="experience__description">Desarrollé y mantuve aplicaciones y sistemas de software, asegurando su
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Desarrollador de Software y Soporte Técnico</h3>
+            <p class="experience__description" data-section="experience" data-value="first-job-description">Desarrollé y mantuve aplicaciones y sistemas de software, asegurando su
               rendimiento y escalabilidad. Proporcioné soporte técnico de nivel 1, 2 y 3, resolviendo incidencias y
               problemas técnicos de usuarios finales y equipos.</p>
           </div>
@@ -78,8 +89,8 @@
             <p class="experience__time">
               Abril 2018
             </p>
-            <h3 class="experience__job">Técnico informático</h3>
-            <p class="experience__description">Realicé el montaje y ensamblaje de equipos informáticos
+            <h3 class="experience__job" data-section="experience" data-value="second-job-title">Técnico informático</h3>
+            <p class="experience__description" data-section="experience" data-value="second-job-description">Realicé el montaje y ensamblaje de equipos informáticos
               reciclados.<br />Efectué el mantenimiento preventivo y correctivo de ordenadores, asegurando su óptimo
               funcionamiento. Configuré e instalé programas informáticos, garantizando la compatibilidad y el
               rendimiento del software en diferentes sistemas.</p>
@@ -87,12 +98,12 @@
         </div>
       </atricle>
       <article class="card card--hobbies">
-        <h2 class="card__title">Hobbies</h2>
+        <h2 class="card__title" data-section="cards" data-value="hobbies-title" >Hobbies</h2>
         <div class="card__image-container">
           <img src="assets/images/hobbie.jpg" alt="music">
         </div>
-        <h3 class="hobbie__title">Música</h3>
-        <p class="card__text">Sentarme frente al ordenador y empezar a crear música es una de mis aficiones favoritas,
+        <h3 class="hobbie__title" data-section="hobbies" data-value="first-hobby-title">Música</h3>
+        <p class="card__text" data-section="hobbies" data-value="first-hobby-description">Sentarme frente al ordenador y empezar a crear música es una de mis aficiones favoritas,
           para mi es muy relajante y me ayuda a despejar la mente. Generalmente escribo mis letras y comparto tiempo con
           mis amigos componiendo canciones.</p>
       </article>
@@ -100,7 +111,7 @@
     <section class="column column--right">
       <article class="card">
         <h2 class="card__title">Front End</h2>
-        <small>Años de experiencia</small>
+        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -122,7 +133,7 @@
       </article>
       <article class="card">
         <h2 class="card__title">Back End</h2>
-        <small>Años de experiencia</small>
+        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -143,8 +154,8 @@
         </div>
       </article>
       <article class="card">
-        <h2 class="card__title">Diseño y multimedia</h2>
-        <small>Años de experiencia</small>
+        <h2 class="card__title" data-section="cards" data-value="design-multimedia">Diseño y multimedia</h2>
+        <small data-section="cards" data-value="experience-years">Años de experiencia</small>
         <div class="skills__header">
           <span class="skills__start-level">0</span>
           <span class="skills__end-level">6</span>
@@ -179,17 +190,17 @@
             <span class="project__tag"> #Android </span>
             <span class="project__tag"> #Firebase </span>
           </div>
-          <h2 class="card__title">Aplicación cliente-servidor para realizar pedidos</h2>
-          <p class="card__text">Diseñé y desarrollé una aplicación Android para finalizar el ciclo superior de
+          <h2 class="card__title" data-section="projects" data-value="first-project-title">Aplicación cliente-servidor para realizar pedidos</h2>
+          <p class="card__text" data-section="projects" data-value="first-project-description-1">Diseñé y desarrollé una aplicación Android para finalizar el ciclo superior de
             desarrollo de aplicaciones multiplataforma. Usé Java en Android Studio, utilicé el framework de Android para
             crear las pantallas,
             intentando asegurar una interfaz intuitiva y funcional para los usuarios.</p>
-          <p class="card__text">Implementé el servidor backend con Express.js, creando endpoints para recibir peticiones
+          <p class="card__text" data-section="projects" data-value="first-project-description-2">Implementé el servidor backend con Express.js, creando endpoints para recibir peticiones
             y gestionar la lógica del servidor y la
             comunicación con la base de datos.</p>
           <div class="buttons">
-            <a href="#" class="button button--primary">Demo</a>
-            <a href="#" class="button button--ghost">Code</a>
+            <a href="#" class="button button--primary" data-section="buttons" data-value="demo">Demo</a>
+            <a href="#" class="button button--ghost" data-section="buttons" data-value="code">Code</a>
           </div>
         </div>
       </article>

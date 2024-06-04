@@ -1,0 +1,38 @@
+{
+    "profile": {
+        "rol": "Desenvolupador Júnior",
+        "description": "Més de 6 anys d'experiència en el sector. Durant els últims 4 anys, he anat adquirint una sòlida base i perfeccionant les meues habilitats en diverses tecnologies, especialment Java, HTML, CSS i JavaScript.<br /> Estic buscant noves oportunitats per a créixer professionalment i aplicar els meus coneixements en projectes innovadors i desafiadors."
+    },
+    "experience": {
+        "first-job-title": "Desenvolupador de Programari i Suport Tècnic",
+        "first-job-date": "Març 2024",
+        "first-job-description": "Vaig desenvolupar i mantindre aplicacions i sistemes de programari, assegurant el seu rendiment i escalabilitat. Vaig proporcionar suport tècnic de nivell 1, 2 i 3, resolent incidències i problemes tècnics d'usuaris finals i equips.",
+        "second-job-title": "Tècnic informàtic",
+        "second-job-date": "Abril 2018",
+        "second-job-description": "Vaig realitzar el muntatge i acoblament d'equips informàtics reciclats.<br />Vaig efectuar el manteniment preventiu i correctiu d'ordinadors, assegurant el seu òptim funcionament. Vaig configurar i vaig instal·lar programes informàtics, garantint la compatibilitat i el rendiment del programari en diferents sistemes."
+    },
+    "projects": {
+        "first-project-title": "Aplicació client-servidor per a realitzar comandes",
+        "first-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
+        "first-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades."
+    },
+    "hobbies": {
+        "title": "Aficions",
+        "first-hobby-title": "Música",
+        "first-hobby-description": "Asseure'm enfront de l'ordinador i començar a crear música és una de les meues aficions favorites, per a mi és molt relaxant i m'ajuda a buidar la ment. Generalment escric les meues lletres i compartisc temps amb els meus amics component cançons."
+    },
+    "cards": {
+        "experience-title": "Experiència",
+        "experience-years": "Anys d'experiència",
+        "hobbies-title": "Aficions",
+        "design-multimedia": "Disseny i Multimèdia"
+    },
+    "buttons": {
+        "demo": "Demo",
+        "code": "Codi"
+    },
+    "mode":{
+        "light": "Mode clar",
+        "dark": "Mode fosc"
+    }
+}

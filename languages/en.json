@@ -1,0 +1,38 @@
+{
+    "profile": {
+        "rol": "Junior Developer",
+        "description": "More than 6 years of experience in the sector. Over the last 4 years, I have been acquiring a solid foundation and perfecting my skills in various technologies, especially Java, HTML, CSS and Javascript.<br /> I am looking for new opportunities to grow professionally and apply my knowledge in innovative and challenging projects."
+    },
+    "experience": {
+        "first-job-title": "Software Developer and Technical Support",
+        "first-job-date": "March 2024",
+        "first-job-description": "I developed and maintained software applications and systems, ensuring their performance and scalability. I provided level 1, 2 and 3 technical support, resolving incidents and technical problems of end users and equipment.",
+        "second-job-title": "IT Technician",
+        "second-job-date": "April 2018",
+        "second-job-description": "I performed the assembly and mounting of recycled computer equipment.<br />I performed preventive and corrective maintenance of computers, ensuring their optimal operation. I configured and installed computer programs, ensuring software compatibility and performance on different systems."
+    },
+    "projects": {
+        "first-project-title": "Client-server application for ordering",
+        "first-project-description-1": "I designed and developed an Android application to finish the higher cycle of multiplatform application development. I used Java in Android Studio, I used the Android framework to create the screens, trying to ensure an intuitive and functional interface for users.",
+        "first-project-description-2": "I implemented the backend server with Express.js, creating endpoints to receive requests and manage the server logic and communication with the database."
+    },
+    "hobbies": {
+        "title": "Hobbies",
+        "first-hobby-title": "Music",
+        "first-hobby-description": "Sitting in front of the computer and start creating music is one of my favorite hobbies, for me it is very relaxing and helps me to clear my mind. I usually write my lyrics and spend time with my friends composing songs."
+    },
+    "cards": {
+        "experience-title": "Experience",
+        "experience-years": "Years of experience",
+        "hobbies-title": "Hobbies",
+        "design-multimedia": "Design and Multimedia"
+    },
+    "buttons": {
+        "demo": "Demo",
+        "code": "Code"
+    },
+    "mode":{
+        "light": "Light mode",
+        "dark": "Dark mode"
+    }
+}
