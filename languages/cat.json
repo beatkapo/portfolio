@@ -13,8 +13,8 @@
     },
     "projects": {
         "first-project-title": "Barra per cercar i seleccionar llibres",
-        "first-project-description-1": "Vaig implementar una API amb ASP.NET Core que busca llibres per terme de busqueda. Vaig configurar un endpoint que rep el terme i realitza la peticion a la base de dades, retorna una resposta en format JSON amb els llibres trobats.",
-        "first-project-description-2": "La barra de cerca, feta amb PHTML i JavaScript, realitza una petició a la API i mostra els resultats en una caixa desplegable. Cada llibre seleccionat afig una targeta per a portar un seguiment que llibres s'han seleccionat, per a així guardar la selecció en enviar el formulari.",
+        "first-project-description-1": "Vaig implementar una API amb ASP.NET Core que busca llibres per terme de cerca. Vaig configurar un endpoint que rep el terme i realitza la petició a la base de dades, retorna una resposta en format JSON amb els llibres trobats.",
+        "first-project-description-2": "La barra de cerca, feta amb PHTML i JavaScript, realitza una petició a la API i mostra els resultats en una caixa desplegable. Cada llibre seleccionat afig una targeta per a portar un seguiment dels llibres que s'han seleccionat, per a així guardar la selecció en enviar el formulari.",
         "second-project-title": "Aplicació client-servidor per a realitzar comandes",
         "second-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
         "second-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",

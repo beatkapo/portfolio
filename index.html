@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
+  <link id="favicon" rel="icon" href="favicon-y.ico">
   <title>Portfolio</title>
 </head>
 
@@ -223,13 +224,13 @@
             <span class="project__tag"> #Firebase </span>
           </div>
           <h2 class="card__title" data-section="projects" data-value="first-project-title">Barra de búsqueda y selección de libros</h2>
-          <p class="card__text" data-section="projects" data-value="first-project-description-1">Implementé una API con ASP.NET Core que busca libros por término de busqueda. Configuré un endpoint que recibe el término y realiza la peticion a la base de datos, devuelve una respuesta en formato JSON con los libros encontrados.</p>
-          <p class="card__text" data-section="projects" data-value="first-project-description-2">La barra de busqueda, hecha con PHTML y Javascript, realiza una petición a la API y muestra los resultados en una caja desplegable. Cada libro seleccionado añade una tarjeta para llevar un seguimiento de que libros se han seleccionado, para así guardar la selección al enviar el formulario.</p>
+          <p class="card__text" data-section="projects" data-value="first-project-description-1">Implementé una API con ASP.NET Core que busca libros por término de busqueda. Configuré un endpoint que recibe el término y realiza la petición a la base de datos, devuelve una respuesta en formato JSON con los libros encontrados.</p>
+          <p class="card__text" data-section="projects" data-value="first-project-description-2">La barra de búsqueda, hecha con PHTML y Javascript, realiza una petición a la API y muestra los resultados en una caja desplegable. Cada libro seleccionado añade una tarjeta para llevar un seguimiento de qué libros se han seleccionado, para así guardar la selección al enviar el formulario.</p>
           <div class="buttons">
             <div id="button-clip-api-libros" class="button button--primary">Demo</div>
             <!-- Botón que abre el video -->
             <div id="clip-api-libros"class="clip">
-              <video src="assets/videos/demo-api-libros.mp4" controls></video>
+              <video id="video-api-libros" src="assets/videos/demo-api-libros.mp4" controls></video>
               <b id="close-api-libros" class="close">Cerrar</b>
             </div>
           </div>
@@ -261,7 +262,7 @@
             <div id="button-clip-app-restaurante" class="button button--primary">Demo</div>
             <!-- Botón que abre el video -->
             <div id="clip-app-restaurantes"class="clip">
-              <video src="assets/videos/demo-app-restaurante.mp4" controls></video>
+              <video id="video-app-restaurante" src="assets/videos/demo-app-restaurante.mp4" controls></video>
               <b id="close-app-restaurante" class="close">Cerrar</b>
             </div>
             <a href="https://github.com/beatkapo/ProyectoFinalDAM" target="_blank" class="button button--ghost" data-section="buttons" data-value="code">Código</a>

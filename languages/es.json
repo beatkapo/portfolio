@@ -13,8 +13,8 @@
     },
     "projects": {
         "first-project-title": "Barra de búsqueda y selección de libros",
-        "first-project-description-1": "Implementé una API con ASP.NET Core que busca libros por término de busqueda. Configuré un endpoint que recibe el término y realiza la peticion a la base de datos, devuelve una respuesta en formato JSON con los libros encontrados.",
-        "first-project-description-2": "La barra de búsqueda, hecha con PHTML y JavaScript, realiza una petición a la API y muestra los resultados en una caja desplegable. Cada libro seleccionado añade una tarjeta para llevar un seguimiento de que libros se han seleccionado, para así guardar la selección al enviar el formulario.",
+        "first-project-description-1": "Implementé una API con ASP.NET Core que busca libros por término de búsqueda. Configuré un endpoint que recibe el término y realiza la petición a la base de datos, devuelve una respuesta en formato JSON con los libros encontrados.",
+        "first-project-description-2": "La barra de búsqueda, hecha con PHTML y JavaScript, realiza una petición a la API y muestra los resultados en una caja desplegable. Cada libro seleccionado añade una tarjeta para llevar un seguimiento de qué libros se han seleccionado, para así guardar la selección al enviar el formulario.",
         
         "second-project-title": "Aplicación cliente-servidor para realizar pedidos",
         "second-project-description-1": "Diseñé y desarrollé una aplicación Android para finalizar el ciclo superior de desarrollo de aplicaciones multiplataforma. Usé Java en Android Studio, utilicé el framework de Android para crear las pantallas, intentando asegurar una interfaz intuitiva y funcional para los usuarios.",

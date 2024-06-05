@@ -421,6 +421,7 @@ body.dark {
 }
 
 .clip .close{
+    color: white;
     position: absolute;
     top: 30px;
     right: 30px;

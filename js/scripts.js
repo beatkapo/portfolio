@@ -15,24 +15,32 @@ const bromeraImage = document.getElementById('bromera-image');
 const buttonClipApiLibros = document.getElementById('button-clip-api-libros');
 const clipApiLibros = document.getElementById('clip-api-libros');
 const closeClipApiLibros = document.getElementById('close-api-libros');
+const videoApiLibros = document.getElementById('video-api-libros');
+
 buttonClipApiLibros.addEventListener('click', () => {
     buttonClipApiLibros.classList.toggle('active');
     clipApiLibros.classList.toggle('active');
+    videoApiLibros.play();
 });
 closeClipApiLibros.addEventListener('click', () => {
     buttonClipApiLibros.classList.toggle('active');
     clipApiLibros.classList.toggle('active');
+    videoApiLibros.pause();
 });
+
 const buttonClipRestaurantes = document.getElementById('button-clip-app-restaurante');
 const clipAppRestaurantes = document.getElementById('clip-app-restaurantes');
 const closeClipRestaurante = document.getElementById('close-app-restaurante');
+const videoAppRestaurante = document.getElementById('video-app-restaurante');
 buttonClipRestaurantes.addEventListener('click', () => {
     buttonClipRestaurantes.classList.toggle('active');
     clipAppRestaurantes.classList.toggle('active');
+    videoAppRestaurante.play();
 });
 closeClipRestaurante.addEventListener('click', () => {
     buttonClipRestaurantes.classList.toggle('active');
     clipAppRestaurantes.classList.toggle('active');
+    videoAppRestaurante.pause();
 });
 
 const changueLanguage = async language => {
@@ -71,4 +79,26 @@ toggleTheme.addEventListener('click', () => {
 
 toggleColors.addEventListener('click', (e) => {
     rootStyles.setProperty('--primary-color', e.target.dataset.color);
+    console.log(e.target.dataset.color);
+    var color = e.target.dataset.color;
+    var favicon = document.getElementById('favicon');
+
+    switch (color) {
+        case 'hsl(214, 84%, 56%)': //blue
+            favicon.href = 'favicon-b.ico';
+            break;
+        case 'hsl(150, 84%, 56%)': //green
+            favicon.href = 'favicon-g.ico';
+            break;
+        case 'hsl(276, 84%, 56%)':// purple
+            favicon.href = 'favicon-p.ico';
+            break;
+        case 'hsl(46, 84%, 56%)': // yellow
+            favicon.href = 'favicon-y.ico';
+            break;
+        default:
+            rootStyles.setProperty('--primary-color', 'white');
+            favicon.href = 'favicon-default.ico';
+            break;
+    }
 });
