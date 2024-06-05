@@ -12,12 +12,15 @@
         "second-job-description": "Vaig realitzar el muntatge i acoblament d'equips informàtics reciclats.<br />Vaig efectuar el manteniment preventiu i correctiu d'ordinadors, assegurant el seu òptim funcionament. Vaig configurar i vaig instal·lar programes informàtics, garantint la compatibilitat i el rendiment del programari en diferents sistemes."
     },
     "projects": {
-        "first-project-title": "Aplicació client-servidor per a realitzar comandes",
-        "first-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
-        "first-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",
-        "second-project-title": "Participació en el concurs nacional de programació ProgramaMe",
-        "second-project-description-1": "Em vaig classificar al costat del meu equip per al concurs nacional de programació 'ProgramaMe', que es va celebrar en la Universitat Complutense de Madrid.",
-        "second-project-description-2": "Després de superar el regional, el meu equip va classificar per a assistir al concurs nacional. Una experiència gratificant i motivadora amb la qual vam aprendre molt sobre programació competitiva i resolució de problemes. Vam haver de tindre en compte tant el temps d'execució com els recursos que utilitzava cada programa."
+        "first-project-title": "Barra per cercar i seleccionar llibres",
+        "first-project-description-1": "Vaig implementar una API amb ASP.NET Core que busca llibres per terme de busqueda. Vaig configurar un endpoint que rep el terme i realitza la peticion a la base de dades, retorna una resposta en format JSON amb els llibres trobats.",
+        "first-project-description-2": "La barra de cerca, feta amb PHTML i JavaScript, realitza una petició a la API i mostra els resultats en una caixa desplegable. Cada llibre seleccionat afig una targeta per a portar un seguiment que llibres s'han seleccionat, per a així guardar la selecció en enviar el formulari.",
+        "second-project-title": "Aplicació client-servidor per a realitzar comandes",
+        "second-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
+        "second-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",
+        "third-project-title": "Participació en el concurs nacional de programació ProgramaMe",
+        "third-project-description-1": "Em vaig classificar al costat del meu equip per al concurs nacional de programació 'ProgramaMe', que es va celebrar en la Universitat Complutense de Madrid.",
+        "third-project-description-2": "Després de superar el regional, el meu equip va classificar per a assistir al concurs nacional. Una experiència gratificant i motivadora amb la qual vam aprendre molt sobre programació competitiva i resolució de problemes. Vam haver de tindre en compte tant el temps d'execució com els recursos que utilitzava cada programa."
     },
     "hobbies": {
         "title": "Aficions",
@@ -40,7 +43,7 @@
         "light": "Mode clar",
         "dark": "Mode fosc"
     },
-    "languages":{
+    "languages": {
         "spanish": "Espanyol",
         "english": "Anglés",
         "valencian": "Valencià"

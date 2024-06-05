@@ -12,15 +12,26 @@ const textsToChange = document.querySelectorAll('[data-section]');
 
 const bromeraImage = document.getElementById('bromera-image');
 
-const buttonClip = document.getElementById('button-clip');
+const buttonClipApiLibros = document.getElementById('button-clip-api-libros');
+const clipApiLibros = document.getElementById('clip-api-libros');
+const closeClipApiLibros = document.getElementById('close-api-libros');
+buttonClipApiLibros.addEventListener('click', () => {
+    buttonClipApiLibros.classList.toggle('active');
+    clipApiLibros.classList.toggle('active');
+});
+closeClipApiLibros.addEventListener('click', () => {
+    buttonClipApiLibros.classList.toggle('active');
+    clipApiLibros.classList.toggle('active');
+});
+const buttonClipRestaurantes = document.getElementById('button-clip-app-restaurante');
 const clipAppRestaurantes = document.getElementById('clip-app-restaurantes');
 const closeClipRestaurante = document.getElementById('close-app-restaurante');
-buttonClip.addEventListener('click', () => {
-    buttonClip.classList.toggle('active');
+buttonClipRestaurantes.addEventListener('click', () => {
+    buttonClipRestaurantes.classList.toggle('active');
     clipAppRestaurantes.classList.toggle('active');
 });
 closeClipRestaurante.addEventListener('click', () => {
-    buttonClip.classList.toggle('active');
+    buttonClipRestaurantes.classList.toggle('active');
     clipAppRestaurantes.classList.toggle('active');
 });
 

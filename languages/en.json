@@ -12,12 +12,15 @@
         "second-job-description": "I performed the assembly and mounting of recycled computer equipment.<br />I performed preventive and corrective maintenance of computers, ensuring their optimal operation. I configured and installed computer programs, ensuring software compatibility and performance on different systems."
     },
     "projects": {
-        "first-project-title": "Client-server application for ordering",
-        "first-project-description-1": "I designed and developed an Android application to finish the higher cycle of multiplatform application development. I used Java in Android Studio, I used the Android framework to create the screens, trying to ensure an intuitive and functional interface for users.",
-        "first-project-description-2": "I implemented the backend server with Express.js, creating endpoints to receive requests and manage the server logic and communication with the database.",
-        "second-project-title": "Participation in the national programming contest ProgramaMe",
-        "second-project-description-1": "I qualified with my team for the national programming contest 'ProgramaMe', which was held at the Complutense University of Madrid.",
-        "second-project-description-2": "After passing the regional, my team qualified to attend the national competition. A rewarding and motivating experience in which we learned a lot about competitive programming and problem solving. We had to take into account so much the execution time as well as the resources used by each program."
+        "first-project-title": "Search bar and books selection",
+        "first-project-description-1": "I implemented an API with Asp.net Core that looks for books by search term. I configured an endpoint that receives the term and performs the request to the database, returns an answer in JSON format With the books found. ",
+        "first-project-description-2": "The search bar, made with PHTML and JavaScript, performs a request to the API and shows the results in a drop-down box. Each selected book adds a card to keep track of what books They have been selected, in order to save the selection when sending the form. ",
+        "second-project-title": "Client-server application for ordering",
+        "second-project-description-1": "I designed and developed an Android application to finish the higher cycle of multiplatform application development. I used Java in Android Studio, I used the Android framework to create the screens, trying to ensure an intuitive and functional interface for users.",
+        "second-project-description-2": "I implemented the backend server with Express.js, creating endpoints to receive requests and manage the server logic and communication with the database.",
+        "third-project-title": "Participation in the national programming contest ProgramaMe",
+        "third-project-description-1": "I qualified with my team for the national programming contest 'ProgramaMe', which was held at the Complutense University of Madrid.",
+        "third-project-description-2": "After passing the regional, my team qualified to attend the national competition. A rewarding and motivating experience in which we learned a lot about competitive programming and problem solving. We had to take into account so much the execution time as well as the resources used by each program."
     },
     "hobbies": {
         "title": "Hobbies",
@@ -40,7 +43,7 @@
         "light": "Light mode",
         "dark": "Dark mode"
     },
-    "languages":{
+    "languages": {
         "spanish": "Spanish",
         "english": "English",
         "valencian": "Valencian"
