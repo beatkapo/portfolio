@@ -78,27 +78,27 @@ toggleTheme.addEventListener('click', () => {
 });
 
 toggleColors.addEventListener('click', (e) => {
-    rootStyles.setProperty('--primary-color', e.target.dataset.color);
-    console.log(e.target.dataset.color);
     var color = e.target.dataset.color;
     var favicon = document.getElementById('favicon');
 
     switch (color) {
         case 'hsl(214, 84%, 56%)': //blue
+            rootStyles.setProperty('--primary-color', e.target.dataset.color);
             favicon.href = 'favicon-b.ico';
             break;
         case 'hsl(150, 84%, 56%)': //green
+            rootStyles.setProperty('--primary-color', e.target.dataset.color);
             favicon.href = 'favicon-g.ico';
             break;
-        case 'hsl(276, 84%, 56%)':// purple
+        case 'hsl(276, 84%, 56%)': // purple
+            rootStyles.setProperty('--primary-color', e.target.dataset.color);
             favicon.href = 'favicon-p.ico';
             break;
         case 'hsl(46, 84%, 56%)': // yellow
+            rootStyles.setProperty('--primary-color', e.target.dataset.color);
             favicon.href = 'favicon-y.ico';
             break;
         default:
-            rootStyles.setProperty('--primary-color', 'white');
-            favicon.href = 'favicon-default.ico';
             break;
     }
 });
