@@ -43,6 +43,22 @@ closeClipRestaurante.addEventListener('click', () => {
     videoAppRestaurante.pause();
 });
 
+const buttonClipHoresWeb = document.getElementById('button-clip-hores-web');
+const clipHoresWeb = document.getElementById('clip-hores-web');
+const closeClipHoresWeb = document.getElementById('close-hores-web');
+const videoHoresWeb = document.getElementById('video-hores-web');
+
+buttonClipHoresWeb.addEventListener('click', () => {
+    buttonClipHoresWeb.classList.toggle('active');
+    clipHoresWeb.classList.toggle('active');
+    videoHoresWeb.play();
+});
+closeClipHoresWeb.addEventListener('click', () => {
+    buttonClipHoresWeb.classList.toggle('active');
+    clipHoresWeb.classList.toggle('active');
+    videoHoresWeb.pause();
+});
+
 const changueLanguage = async language => {
     const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();

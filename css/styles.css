@@ -366,7 +366,6 @@ body.dark {
 
 @media screen and (min-width: 720px) {
     .buttons {
-        position: absolute;
         bottom: 1em;
     }
 }

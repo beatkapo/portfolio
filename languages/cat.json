@@ -12,15 +12,18 @@
         "second-job-description": "Vaig realitzar el muntatge i acoblament d'equips informàtics reciclats.<br />Vaig efectuar el manteniment preventiu i correctiu d'ordinadors, assegurant el seu òptim funcionament. Vaig configurar i vaig instal·lar programes informàtics, garantint la compatibilitat i el rendiment del programari en diferents sistemes."
     },
     "projects": {
-        "first-project-title": "Barra per cercar i seleccionar llibres",
-        "first-project-description-1": "Vaig implementar una API amb ASP.NET Core que busca llibres per terme de cerca. Vaig configurar un endpoint que rep el terme i realitza la petició a la base de dades, retorna una resposta en format JSON amb els llibres trobats.",
-        "first-project-description-2": "La barra de cerca, feta amb PHTML i JavaScript, realitza una petició a la API i mostra els resultats en una caixa desplegable. Cada llibre seleccionat afig una targeta per a portar un seguiment dels llibres que s'han seleccionat, per a així guardar la selecció en enviar el formulari.",
-        "second-project-title": "Aplicació client-servidor per a realitzar comandes",
-        "second-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
-        "second-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",
-        "third-project-title": "Participació en el concurs nacional de programació ProgramaMe",
-        "third-project-description-1": "Em vaig classificar al costat del meu equip per al concurs nacional de programació 'ProgramaMe', que es va celebrar en la Universitat Complutense de Madrid.",
-        "third-project-description-2": "Després de superar el regional, el meu equip va classificar per a assistir al concurs nacional. Una experiència gratificant i motivadora amb la qual vam aprendre molt sobre programació competitiva i resolució de problemes. Vam haver de tindre en compte tant el temps d'execució com els recursos que utilitzava cada programa."
+        "first-project-title": "Sistema de gestió de fitxades i auditoria",
+        "first-project-description-1": "Vaig desenvolupar una aplicació web en ASP.NET que permet als empleats d'una organització iniciar sessió utilitzant les seues credencials de Active Directory. L'aplicació oferix una interfície intuïtiva i segura perquè els usuaris puguen veure les seues fitxades de treball i l'historial de modificacions dels seus registres.",
+        "first-project-description-2": "Este projecte demostra la meua habilitat per a desenvolupar aplicacions web robustes i segures utilitzant ASP.NET, així com la meua capacitat per a integrar sistemes corporatius com Active Directory i SQL Server. L'atenció a la usabilitat i la seguretat en este projecte són exemples del meu enfocament en la creació de solucions efectives i centrades en l'usuari.",
+        "second-project-title": "Barra per cercar i seleccionar llibres",
+        "second-project-description-1": "Vaig implementar una API amb ASP.NET Core que busca llibres per terme de cerca. Vaig configurar un endpoint que rep el terme i realitza la petició a la base de dades, retorna una resposta en format JSON amb els llibres trobats.",
+        "second-project-description-2": "La barra de cerca, feta amb PHTML i JavaScript, realitza una petició a la API i mostra els resultats en una caixa desplegable. Cada llibre seleccionat afig una targeta per a portar un seguiment dels llibres que s'han seleccionat, per a així guardar la selecció en enviar el formulari.",
+        "third-project-title": "Aplicació client-servidor per a realitzar comandes",
+        "third-project-description-1": "Vaig dissenyar i vaig desenvolupar una aplicació Android per a finalitzar el cicle superior de desenvolupament d'aplicacions multiplataforma. Vaig usar Java en Android Studio, vaig utilitzar el framework d'Android per a crear les pantalles, intentant assegurar una interfície intuïtiva i funcional per als usuaris.",
+        "third-project-description-2": "Vaig implementar el servidor backend amb Express.js, creant endpoints per a rebre peticions i gestionar la lògica del servidor i la comunicació amb la base de dades.",
+        "fourth-project-title": "Participació en el concurs nacional de programació ProgramaMe",
+        "fourth-project-description-1": "Em vaig classificar al costat del meu equip per al concurs nacional de programació 'ProgramaMe', que es va celebrar en la Universitat Complutense de Madrid.",
+        "fourth-project-description-2": "Després de superar el regional, el meu equip va classificar per a assistir al concurs nacional. Una experiència gratificant i motivadora amb la qual vam aprendre molt sobre programació competitiva i resolució de problemes. Vam haver de tindre en compte tant el temps d'execució com els recursos que utilitzava cada programa."
     },
     "hobbies": {
         "title": "Aficions",
